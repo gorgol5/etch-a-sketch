@@ -1,0 +1,27 @@
+body h1 {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+.container {
+  margin: 5vw 20vw 2vw 20vw;
+  height: 512px;
+  width: 512px;
+  display: grid;
+  grid-template: repeat(16, 1fr) / repeat(16, 1fr);
+}
+.container div {
+  border: 1px solid black;
+}
+.color {
+  background-color: black;
+}
+.buttons {
+  text-align: center;
+}
+.buttons button {
+  height: 100px;
+  width: 200px;
+  background-color: white;
+  border-radius: 25px;
+  cursor: pointer;
+}
