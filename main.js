@@ -59,7 +59,10 @@ let black = document.querySelector(".black");
 black.addEventListener("click", () => {
   blocks.forEach((block) =>
     block.addEventListener("mouseover", () => {
-      block.setAttribute("style", `background-color: black;`);
+      block.setAttribute(
+        "style",
+        `background-color: black; border: 0.5px solid white `
+      );
     })
   );
 });
